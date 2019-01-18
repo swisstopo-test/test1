@@ -4,6 +4,6 @@ Resources:
       Type: "AWS::Lambda::Function"
       Properties:
         Name: "helloFromCodeDeploy"
-        Alias: "helloFromCodeDeployAlias"
+        Alias: "dev"
         CurrentVersion: "1"
         TargetVersion: "2"
