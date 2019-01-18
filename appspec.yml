@@ -1,9 +1,9 @@
-version: 0.0
+version: 0.0                                                                                                                                                                       
 Resources:
-  - myLambdaFunction:
-      Type: "AWS::Lambda::Function"
-      Properties:
-        Name: "helloFromCodeDeploy"
-        Alias: "$LATEST"
-        CurrentVersion: "1"
-        TargetVersion: "2"
+    - mylambdafunction:
+        Type: AWS::Lambda::Function
+        Properties:
+            Name: "helloFromCodeDeploy"
+            Alias: "dev"
+            CurrentVersion: "1" 
+            TargetVersion: "2"
